@@ -6,7 +6,6 @@ if(!file.exists("./household_power_consumption.txt")){
         
         ## Download data if not already present
         fileUrl <- "https://d396qusza40orc.cloudfront.net/exdata%2Fdata%2Fhousehold_power_consumption.zip"
-        ## For Linux users download(fileUrl, "household_power_consumption.zip")
         download.file(fileUrl, "household_power_consumption.zip")
         
         ## Unzip downloaded zip file
